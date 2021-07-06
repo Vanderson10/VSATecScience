@@ -1,0 +1,75 @@
+.cursos {
+    text-align: center;
+    background-size: cover;
+    color: #fff;
+    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://i.pinimg.com/736x/67/42/28/674228e298cf500d0703523d61f539a2.jpg");
+    }
+
+.cursos__chamada {
+    align-items: flex-start;
+    align-self: flex-start;
+    text-align: center;
+    }
+
+.chamada__titulo {
+    color: #e93d50;
+    font-size: 220%;
+    }
+
+
+.prog{
+    text-align: center;
+    font-size: 120%;
+    }
+
+
+.chamada__titulo--destaque {
+    color: #fff;
+}
+
+.curso-java{
+    border: #e93d50;
+
+}
+
+.java{
+    background-image: url('https://img.icons8.com/nolan/2x/java-eclipse.png');
+    border-width: 1px;
+    
+}
+
+
+@media screen and (max-width: 1024px) {
+    .chamada__titulo {
+        font-size: 200%;
+        }
+    
+    .prog{
+        font-size: 150%;
+        }
+    
+}
+@media screen and (max-width: 768px) {
+    .chamada__titulo {
+        font-size: 150%;
+        }
+
+    .prog{
+        font-size: 100%;
+        }           
+}
+    
+@media screen and (max-width: 420px) {
+    .chamada__titulo {
+        font-size: 100%;
+        }
+    
+                        
+    .prog{
+        font-size: 50%;
+        }           
+}
